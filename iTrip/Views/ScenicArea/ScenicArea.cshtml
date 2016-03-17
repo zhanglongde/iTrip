@@ -1,0 +1,133 @@
+﻿@{
+    ViewBag.Title = "同游网-景点管理";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="../../Content/scenicarea/CSS/scenicarea.css" rel="stylesheet" type="text/css" />
+<link href="../../Content/loadfile/uploadify.css" rel="stylesheet" type="text/css" />
+<div class="wrap">
+    <div class="solid">
+    </div>
+    <div class="l">
+        <div class="h">
+            <div class="headimg">
+                <div class="i">
+                    <img id="h" src="../../Content/travertalk/images/1.png" />
+                </div>
+@*-------------------------------5.11-----------------------*@
+                <div class="w">
+                    <span>管理员:</span>
+                </div>
+                <div class="un">
+                    <span id="userName">小吴</span>
+                </div>
+@*-------------------------------5.11-----------------------*@
+            </div>
+            <div class="word">
+                <span class="w1" id="scenicName">软件学院</span>
+                <div class="solid1">
+                </div>
+            </div>
+            <div  class="qiandao">
+                <div class="left">
+                    <div class="left1">
+                        <div class="leftTopLeft">
+                            <span id="month" class="month">5/</span>
+                        </div>
+                        <div class="leftTopRight">
+                            <span id="day" class="day">9</span>
+                        </div>
+                    </div>
+                    <div class="left2">
+                        <span id="week" class="week">周3</span>
+                    </div>
+                </div>
+                <div class="center" onclick="change()">
+                    <span id="siginIn" class="siginIn" >签到</span>
+                </div>
+                <div class="right">
+                    <div class="right1">
+                        <span>DAY</span></div>
+                    <div class="right2">
+                        <span id="dayCount" class="dayCount">0</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="bd">
+            <div class="bd1">
+                <div class="tit">
+                    <h1>
+                        <a href="#">景点一览表</a>
+                    </h1>
+                </div>
+                <div class="txt" id="scenicSpotName_list">
+                    <ul class="ul_list">
+                        <li><a class="ScenicSpotName"></a><span class="ScenicSpotID"></span></li>
+                    </ul>
+                    <a class="get_more">::查看更多::</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="r">
+        <div class="r1">
+            <div class="bj">
+                <span>景点编辑</span>
+                <input id="jizhuid" type="text" style="display: none" />
+            </div>
+            <div class="name">
+                <span>景点名：</span>
+                <input id="area-name" class="area-n" type="text" />
+            </div>
+            <span class="scenicIntro">景点介绍：</span>
+            <textarea id="notice" class="textinputbor1" title="输入文字" resize="none" spellcheck="false"></textarea>
+            <div class="btns">
+                <div class="image1">
+                    <div id="fileQueue" style="display:none">
+                    </div>
+                    <input type="file" name="uploadify" id="uploadify" />
+                    <p>
+                        <a href="javascript:$('#uploadify').uploadifyUpload()">上传</a> <a href="javascript:$('#uploadify').uploadifyClearQueue()">
+                            取消上传</a>
+                    </p>
+                    <a class="tupian">
+                      
+                    </a>
+                </div>
+                <div class="sound1">
+                    <div id="fileQueue1" style="display:none">
+                       
+                    </div>
+                    <input type="file" name="uploadify" id="uploadify1" />
+                    <p>
+                        <a href="javascript:$('#uploadify1').uploadifyUpload()">上传</a><a href="javascript:$('#uploadify1').uploadifyClearQueue()">
+                            取消上传</a>
+                    </p>
+                    <div class="tupian1">
+                      <span class="biaoji" style="display:none">0</span>
+                    </div>
+                     <a class="yuyin">
+                      
+                    </a>
+                </div>
+                <div class="confirmInfo">
+                    <a id="btn3"></a><a id="btn4" style="display: none"></a>
+                </div>
+            </div>
+        </div>
+        <div class="r2">
+            <div class="yl">
+                <span>景点预览</span>
+            </div>
+            <div class="intro">
+            </div>
+            <div class="demo" id="demo">
+            </div>
+        </div>
+        <div class="clear:both">
+        </div>
+    </div>
+    <script src="../../Content/jquery-ui-moreInfo/javascript/jquery.more.js" type="text/javascript"></script>
+    <script src="../../Content/jPaginate/javascript/jquery.paginate.js" type="text/javascript"></script>
+    <script src="../../Content/loadfile/swfobject.js" type="text/javascript"></script>
+    <script src="../../Content/loadfile/jquery.uploadify.v2.1.4.min.js" type="text/javascript"></script>
+    <script src="../../Content/scenicarea/javacript/scenicearea.js" type="text/javascript"></script>

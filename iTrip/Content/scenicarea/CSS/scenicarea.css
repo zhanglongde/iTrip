@@ -1,0 +1,566 @@
+﻿body {
+}
+
+.wrap
+{
+padding-top:10px;
+    width:950px;
+    margin:auto;
+    height:1200px;
+
+}  
+.l
+{
+    float:left;
+    width:270px;
+    height:1000px;
+
+}
+.solid
+{   
+     padding-bottom:10px;
+     padding-top:10px;
+}
+.l .h .headimg .i
+{
+    clear:both;   
+    display:inline-block;
+    position:relative;
+float:left;
+}
+.l .h 
+{
+   width:260px;
+   border:2px solid #FEDDBC;
+    height:230px;
+    margin-bottom:10px;
+    padding-top:10px;
+
+}
+.l .h .headimg .i
+{
+    margin-left:10px;
+}
+.l .h .headimg span
+{
+    font-size:20px; 
+    margin-left:10px;
+    
+}
+/*--------------------------------------5.11-------------------*/
+.l .h .headimg .w
+{
+    padding-top:20px;
+padding-bottom:10px;
+    margin-right:12px;
+
+}
+.l .h .headimg .un
+{
+     display: block;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right:10px;
+}
+/*--------------------------------------5.11-------------------*/
+.l .h .word
+{
+    font-size:20px;
+    padding-top:30px;
+    clear:both;
+    text-align:center;
+    padding-bottom:40px;
+    *padding-top:10px;  
+}
+.l .ti
+{
+    text-align:center;
+    font-size:18px;
+    padding-bottom:10px;
+}
+.l .bd .bd1
+{
+
+    display:block;
+}
+.l .bd .bd1 .tit
+{
+    background :url("../image/tit.png") no-repeat scroll 0 -83px  transparent;
+    border:2px solid #EA8430;
+    width:258px;
+    height:27px;
+   
+    line-height:29px;
+    display:block;
+    overflow:hidden;
+    color:#F9EAEA;
+    font-size:14px;
+}
+.fr
+{
+    float:right;
+}
+.l .bd .bd1 .fr
+{
+    padding-right:16px;
+}
+
+.bd .bd1 .txt
+{
+     -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-style:solid;
+    border-width:2px 1px 1px;
+    display:block;
+    padding:10px 0 15px 8px;
+       border-color: #E8E8E8 #F17D7E #F17D7E;
+    border-right: 1px solid #F17D7E;
+    width:252px;
+}
+ul
+{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.bd .bd1 .txt li
+{
+
+    color: blue;
+    display: block;
+    margin: 1px;
+    overflow: hidden;
+    padding: 6px 6px;
+    font-size:18px;
+}
+
+.bd .bd1 .txt a:hover
+{
+    text-decoration:underline;
+}
+
+.r
+{
+    width:690px;
+    margin-left:260px;
+    *width:680px;
+}
+.r .bj
+{
+    background:url("../image/tit.png") no-repeat scroll 0 -43px  transparent;/*------------------------5.11---------------------*/
+    width:676px;/*------------------------5.11---------------------*/
+    height:40px;/*------------------------5.11---------------------*/
+    line-height:49px;
+    *width:668px;
+}
+.r .r1 
+{
+    border:2px solid #FEDDBC;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+.r .r1 .bj span
+{
+    color:#FFF;
+    font-size:20px;
+}
+
+.r .r1 .name 
+{
+    padding-left:40px;
+    height:50px;
+    padding-top:10px;
+}
+.r .r1 .name .area-n
+{
+    width:528px;
+    height:30px;
+    font-size:16px;
+}
+
+.r .r1 .textinputbor1
+{
+    width:528px;
+    font-size:18px;
+    height:140px;
+    resize: none;
+    margin-left:108px;
+    position:relative;
+    top:-20px;
+} 
+.r .r1 .btns 
+{
+    padding-left:30px;
+    padding-bottom:12px;
+}
+.r .r1 .btns .image1
+{
+    float:left;
+    padding-right:50px;
+    margin-left:80px;   
+}
+ 
+.r .r1 .btns .image1 .photo
+{
+    background:url("../image/tit.png") no-repeat scroll 0 -110px  transparent;
+    width:29px;
+    height:29px;
+    padding-top:17px;
+}
+.r .r1 .btns .sound1 .sound
+{
+    background:url("../image/tit.png") no-repeat scroll 0 -137px  transparent;
+    width:27px;
+    height:27px;
+    padding-top:17px;
+}
+
+.scenicIntro
+{
+    margin-left:23px;
+    }
+/*-----------------------------------------------------*/
+.r .yl
+{
+   background:url("../image/tit.png") no-repeat scroll 0 -43px  transparent;/*------------------------5.11---------------------*/
+    width:676px;/*------------------------5.11---------------------*/
+    height:40px;/*------------------------5.11---------------------*/
+    line-height:46px;
+    *width:668px;
+    *position:relative;
+    *top:-5px;
+}
+.r .yl span, .r .bj span
+{
+    padding-left:18px;
+    font-weight:bold;
+    position:relative;
+    top:-5px;
+}
+.r .r2
+{
+     border:2px solid #FEDDBC; 
+     margin-left:10px;
+}
+/*-------------------------------------------------------*/
+.r .r2 .intro .intro-1
+{
+    margin:30px 10px 20px 10px;
+    border-bottom:1px dotted #4F677D;
+}
+.r .r2 .intro .intro-1 .intro-img
+{
+    float:left;
+}
+.r .r2 .intro .intro-1 .intro-img img
+{
+    width:100px;height:100px;
+    }
+.r .r2 .intro .intro-1 .intro-w
+{
+   padding-left:120px;
+}
+.r .r2 .intro .intro-1 .intro-name
+{
+    font-size:18px;
+    width:400px;
+  
+}
+.r .r2 .intro .intro-1 .intro-content
+{
+    margin-top:20px;
+     font-size:16px; 
+      margin-bottom:20px;
+}
+.r .r2 .intro .intro-1 .intro-sound
+{
+    float:right;
+  background:url("../image/tit.png") no-repeat scroll 0 -137px  transparent;
+    width:27px;
+    height:27px;
+   
+    margin-right:16px;
+  
+}
+.r .r2 .intro .intro-1 .intro-btn a
+{
+    clear:both;
+    font-size:16px; 
+    padding-right:10px;
+    color:#EB8433;
+}
+.r .r2 .intro .intro-1 .intro-btn a:link
+{
+    color:#EB8433; 
+}
+.r .r2 .intro .intro-1 .intro-btn a:visited
+{
+    color:gray; 
+}.r .r2 .intro .intro-1 .intro-btn a:hover
+{
+    color:gray; 
+}
+.r .r2 .intro .intro-1 .intro-btn 
+{
+    text-align:right;
+     padding-right:40px;
+     padding-bottom:15px;
+}
+
+/*-----------------------------------------------------------------*/
+.r .r2 span
+{
+    color:#FFF;
+    font-size:20px;
+}
+
+/*-----------------------------------------------------------------*/
+span
+{
+    font-size:16px;
+}
+a
+{
+    font-size:16px;
+}
+a:link{
+color:#00F;
+text-decoration:none;
+}
+a:visited {
+color: #00F;
+text-decoration:none;
+}
+a:hover {
+color: #c00;
+text-decoration:underline;
+}
+.confirmInfo
+{
+    float:right;
+    }
+.confirmInfo a
+{
+    display:block;
+    background:url(../image/confirm.png);
+    height:40px;
+    width:93px;
+    position:relative;
+    top:-55px;
+    margin-right:30px;
+    }
+    
+.confirmInfo a:hover
+{
+    background:url(../image/confirm1.png);
+    }
+/*---------------------------------------------*/
+.l .bd .bd1 .fr a
+{
+    font-size:16px;
+}
+.l .bd .bd1 .tit span a:link
+{
+    color:#FFF;
+}
+.l .bd .bd1 .tit span a:visited
+{
+    color:#FEEECF;
+}
+.l .bd .bd1 .tit span a:hover
+{
+    color:#FF7733;
+    text-decoration:underline;
+}
+.l .bd .bd1 .tit h1
+{
+   padding-left:5px;
+}
+ 
+ 
+.l .bd .bd1 .tit  h1
+{
+    color:#FFFF00;
+}
+.l .bd .bd1 .tit  h1 a:link
+{
+    color:#FFFFFF;
+}
+.l .bd .bd1 .tit  h1 a:visited
+{
+    color:#FFFFFF;
+}
+.l .bd .bd1 .tit  h1 a:hover
+{
+    color:#FFFF00;
+    text-decoration:none;
+}
+
+
+.get_more
+{
+    color:#3E576F;
+    margin-left:150px;
+    margin-bottom:10px;
+    font-size:14px;
+    }
+.more_loader_spinner
+{
+    background:url(../../jquery-ui-moreInfo/image/loader.gif);
+    width:20px;height:20px;margin-left:200px;
+    }
+    
+.ScenicSpotID
+{
+    display:none;
+    }
+.scenicZoneId
+{
+    display:none;
+    }
+    
+.image1 p,.sound1 p
+{
+    margin-top:10px;
+    }
+    
+.image1 p a,.sound1 p a
+{
+    margin-left:5px;
+    }
+    
+.tupian
+{
+    display:none;
+    }
+    
+.yuyin
+{
+    display:none;
+    }
+    
+.tupian1 #dewplayer
+{
+    margin-left:405px;
+    position:relative;
+    top:-52px;
+    }
+    
+#dewplayer
+{
+    height:40px;
+    }
+#fileQueue1
+{
+    
+    }
+.image1
+{
+    margin-left:80px;
+    }
+ .qiandao
+{
+    font-size:18px;
+    margin-bottom:10px;
+    margin-left:30px;
+background-image:url("../image/qiandao.png");
+width:220px;
+height:44px;
+position:relative;
+top:-20px;
+}
+ .qiandao .left{
+margin-top:3px;
+margin-bottom:5px;
+margin-left:15px;
+width:22%;
+height:40px;
+float:left;
+
+}
+ .qiandao .center{
+margin-top:5px;
+margin-bottom:5px;
+width:45%;
+height:40px;
+float:left;
+line-height:35px;
+text-align:center;
+}
+
+  .qiandao .right{
+
+margin-bottom:5px;
+margin-left:5px;
+width:22%;
+height:40px;
+float:left;
+}
+ .qiandao .right .right1{
+padding:3px;
+padding-left:30%;
+height:10px;
+}
+ .qiandao .right .right2{
+padding:3px;
+padding-left:40%;
+height:10px;
+}
+.qiandao .left .left1 .leftTopLeft{
+float:left;
+}
+.qiandao .left .left1 .leftTopRight{
+float:left;
+}
+  .qiandao .left .left1 .leftTopRight
+{
+   padding-right:10px;
+}
+ .qiandao .left .left2 span
+{
+    margin-left:4px;
+    font-size:14px;
+}
+  .qiandao .left .left2 
+{
+    margin-right:4px;
+}
+  .qiandao .center
+{
+    cursor:pointer;
+    }
+  .qiandao .center span
+{
+    font-weight:bold;
+    font-size:20px;
+}
+  .qiandao .left .left1 span
+{
+    font-size:14px;
+}
+  .qiandao .left .left1
+{
+    padding-left:4px;
+}
+  .qiandao .right .right1 span
+{
+    font-size:14px;
+}
+ .embed_voice_2
+ {
+     position:relative;
+     left:375px;
+     top:-53px;
+     }
+ .r2 .intro .no_scenicInfo
+ {
+     color:Blue;
+     display:block;
+     margin-left:30px;
+     margin-top:20px;
+     margin-bottom:30px;
+     }

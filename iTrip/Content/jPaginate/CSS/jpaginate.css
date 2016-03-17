@@ -1,0 +1,93 @@
+﻿.jPaginate {
+    color: #A5A5A5;
+    font-size: small;
+    height: 34px;
+    position: relative;
+    width: 100%;
+}
+.jPaginate a {
+    cursor: pointer;
+    float: left;
+    height: 18px;
+    line-height: 15px;
+    margin: 2px;
+    padding: 2px 5px;
+}
+.jPag-control-back {
+    left: 0;
+    position: absolute;
+}
+.jPag-control-front {
+    position: absolute;
+    top: 0;
+}
+.jPaginate span {
+    cursor: pointer;
+}
+ul.jPag-pages {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.jPag-pages li {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+ul.jPag-pages li a {
+    float: left;
+    padding: 2px 5px;
+}
+span.jPag-current {
+    cursor: default;
+    float: left;
+    font-weight: normal;
+    height: 18px;
+    line-height: 15px;
+    margin: 2px;
+    padding: 2px 5px;
+}
+ul.jPag-pages li span.jPag-previous, ul.jPag-pages li span.jPag-next, span.jPag-sprevious, span.jPag-snext, ul.jPag-pages li span.jPag-previous-img, ul.jPag-pages li span.jPag-next-img, span.jPag-sprevious-img, span.jPag-snext-img {
+    float: left;
+    height: 22px;
+    line-height: 18px;
+    margin: 2px;
+}
+ul.jPag-pages li span.jPag-previous, ul.jPag-pages li span.jPag-previous-img {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px 0 2px 2px;
+    width: 10px;
+}
+ul.jPag-pages li span.jPag-next, ul.jPag-pages li span.jPag-next-img {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px 2px 2px 0;
+    width: 10px;
+}
+span.jPag-sprevious, span.jPag-sprevious-img {
+    font-size: 18px;
+    margin: 2px 0 2px 2px;
+    text-align: right;
+    width: 15px;
+}
+span.jPag-snext, span.jPag-snext-img {
+    font-size: 18px;
+    margin: 2px 2px 2px 0;
+    text-align: right;
+    width: 15px;
+}
+ul.jPag-pages li span.jPag-previous-img {
+    background: url("../images/previous.png") no-repeat scroll right center transparent;
+}
+ul.jPag-pages li span.jPag-next-img {
+    background: url("../images/next.png") no-repeat scroll left center transparent;
+}
+span.jPag-sprevious-img {
+    background: url("../images/sprevious.png") no-repeat scroll right center transparent;
+}
+span.jPag-snext-img {
+    background: url("../images/snext.png") no-repeat scroll left center transparent;
+}

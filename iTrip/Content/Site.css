@@ -1,0 +1,153 @@
+
+body
+{
+    font-size:75%;
+    font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+}
+body.bg2 
+{
+    background-image:url("../../Content/themes/image/beijing.png");
+    width:100%;
+    background-position:center;
+    background-attachment:fixed;
+    
+ }
+a
+{
+    text-decoration:none;
+    }
+.ct
+{
+    width:950px;height:auto;
+    margin:0 auto;
+    }
+ .ct .site-logo
+ {
+     margin-top:20px;
+     margin-bottom:10px;
+     }
+ .head
+ {
+     background:url("../../Content/themes/image/menu_head.png") repeat-x;
+     margin-top:0px;
+     height:31px;width:auto;
+     }
+     
+ .head .menu-op
+ {
+     width:950px;height:auto;
+     margin:0 auto;
+     font-size:14px;
+     padding-top:5px;
+     color:Black;
+     }
+ .head .menu-op span
+ {
+     font-size:14px;
+     }
+ .head .menu-op a
+  {
+      color:#666666;
+      font-size:14px;
+      }
+  .head .menu-op  .UserName
+  {
+      color:Blue;
+      }
+  .head .menu-op .login,.head .menu-op .register,.head .menu-op .user-info,.head .menu-op .exit-login
+  {
+      float:right;
+      margin-left:10px;
+  }
+ /* .ct .top
+  {
+      background:url("../../Content/themes/image/headgreen.png") no-repeat scroll right 0 transparent;
+  }*//*-----------------------5.11---------------------*/
+.ct .top .w
+{
+    float:right;
+    margin-top:33px;
+    color:#AB9242;
+}
+.ct .top .w span
+{
+    font-size:18px;
+    margin-bottom:10px;
+    line-height:25px;
+}
+.ct .top .site-logo
+{
+    margin-right:750px;
+}
+      
+
+  .ct .op-list
+  {
+      padding-left:3px;
+      height:40px;
+  }
+  .ct .op-list li
+  {
+      float:left;
+      list-style:none outside none;
+  }
+   .ct .op-list li a span
+   {
+       font-size:18px;
+       display:inline-block;
+       line-height:35px;
+       color:#4572A7;
+   }
+    .ct .op-list li .s
+    {
+        padding-left:12px;
+    }
+    .ct .op-list ul li
+    {
+     background:url("../../Content/themes/image/shouqie.png") no-repeat scroll 0 0px  transparent;
+     height:35px;
+     width:125px;
+}
+.ct .op-list ul li a
+{
+ padding-left:22px;   
+}
+.ct .op-list ul li a:hover
+{ 
+  height:31px;
+  width:110px;
+  display:block;
+  margin-left:3px;
+  margin-top:2px;
+  background:#fff;
+  color:#739242;
+  font-weight:bold;
+  background:url("../../Content/themes/image/shouqie.png")  no-repeat scroll -3px -49px  transparent;
+}
+
+.backToTop {
+ display: none;
+ width: 18px;
+ line-height: 1.2;
+ padding: 5px 0;
+ background-color: #000;
+ color: #fff;
+ font-size: 12px;
+ text-align: center;
+ position: fixed;
+ _position: absolute;
+ right: 10px;
+ bottom: 100px;
+ _bottom: "auto";
+ cursor: pointer;
+ opacity: .6;
+ filter: Alpha(opacity=60);
+}
+.fl
+{
+    float:left;
+    }
+ .fr
+ {
+     float:right;
+     }

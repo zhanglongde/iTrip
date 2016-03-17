@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "注册";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="../../Content/register/CSS/register.css" rel="stylesheet" type="text/css" />
+<link href="../../Content/poshytip/tip-yellow/tip-yellow.css" rel="stylesheet" type="text/css" />
+<link href="../../Content/poshytip/tip-yellowsimple/tip-yellowsimple.css" rel="stylesheet"
+    type="text/css" />
+<script src="../../Scripts/jquery-1.4.4.js" type="text/javascript"></script>
+<script src="../../Content/poshytip/jquery.poshytip.js" type="text/javascript"></script>
+<script src="../../Content/register/javacript/register.js" type="text/javascript"></script>
+
+<div class="register_content">
+   <div class="wc-register">
+     <h2>欢迎注册iTrip</h2>
+   </div>
+   <div class="register_pro_img">
+   </div>
+   <div class ="register_info">
+      <table>
+        <tr class="tr1">
+          <td class="align_right" >用户名：</td>
+          <td  class="align_left">
+            <input  class="username_tx"type="text" title="请输入用户名" id="username"/>
+          </td>
+        </tr>
+        <tr>
+           <td class="align_right">密码：</td>
+           <td class="align_left">
+             <input class="password_tx" type="password" id="password"/>
+           </td>
+        </tr>
+        <tr>
+           <td class="align_right">确认密码：</td>
+           <td class="align_left">
+             <input class="password_tx" type="password" id="confirmpwd"/>
+           </td>
+        </tr>
+        <tr>
+           <td  class="align_right">邮箱：</td>
+           <td class="align_left">
+             <input class="email_tx"type="text" id="email"/>
+           </td>
+        </tr>
+        <tr>
+          <td class="align_right">手机：</td>
+          <td class="align_left">
+           <input class="mobilphone_tx" type="text" id="mobilephone"/>
+          </td>
+        </tr>
+        <tr>
+           <td class="align_right"></td>
+           <td class="align_left">
+             <input class="reg_bt" type="button" id="regist"/>
+           </td>
+        </tr>
+   </table>
+   </div>
+   <div class="email-active">
+     <div>
+       <p>我们已经发了封验证邮件到你的邮箱
+          <a class="email-adress"></a>
+       </p>
+       <a class="go-to-email" href="https://mail.qq.com/cgi-bin/loginpage?" target="_blank"></a>
+     </div>
+     <div>
+     </div>
+   </div>
+   <div class="reg-success">
+      注册成功，正在努力为你跳转。。。
+   </div>
+</div>
+
+
+

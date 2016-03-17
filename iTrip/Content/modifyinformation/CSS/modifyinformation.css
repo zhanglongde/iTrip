@@ -1,0 +1,280 @@
+﻿body {
+}
+.main_body
+{
+    width:950px;
+    margin :auto;
+    border :0px;
+    position:relative;
+    top:10px;
+    background :url(../image/背景.png) scroll 0px 0px transparent;
+    background-repeat:repeat-Y;
+    }
+ .modify_manage
+ {
+       width:950px;
+       height:300px;
+       margin-top:10px;
+  }
+  .modify_manage .manage_title
+  {
+      width:950px;
+      height:40px;
+      background :url(../image/信息修改.png) scroll 0px 0px transparent;
+      }
+    .modify_manage .manage_title span
+    {
+        width:300px;
+        height:35px;
+        position :relative;
+        top:13px;
+        left:10px;
+        font-size :18px ;
+        }
+     .manage_body
+   {
+         width:950px;
+         height:260px;
+    }
+    .manage_body .body_left
+   {
+         width:  600px;
+         height:260px; 
+         position :relative;
+         top:0px;
+         left:100px;
+   }
+   .body_left_tb
+   {
+       width:600px;
+       height:260px;
+       position :relative ;
+       top :10px;
+       }
+     .body_left_tb tr
+     { 
+         width:600px;
+         height:50px;
+     }
+.body_left_tb .left_td
+  {
+   color: black;
+    font-size: 16px;
+    height: 40px;
+    text-align: right;
+    width: 220px;
+  }
+ .body_left_tb .right_td
+ {
+       height: 30px;
+       left: 20px;
+       position: relative;
+       width:280px;
+       padding:6px\9;
+       height:20px\9;
+ }
+    .manage_body .body_right
+   {
+    height: 300px;
+    left: 700px;
+    position: absolute;
+    top: 70px;
+    width: 200px;
+   }
+body_right .photo_img
+      {
+          width:150px;
+          height:180px;
+          
+          }
+ .body_right .photo_a
+{
+    color: gray;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bold;
+    height: 40px;
+    left: 25px;
+    position: absolute;
+    top: 190px;
+    width: 150px;
+    
+    }
+   .modify_scenic
+   {
+       width:950px;
+       height:500px;
+       position:relative ;
+       top:20px;
+       
+       
+       }
+.modify_scenic .scenic_title
+{
+    width:950px;
+    height :40px;
+    background :url(../image/信息修改.png) scroll 0px -42px transparent;
+    }
+ .modify_scenic .scenic_title  span
+ {
+        width:300px;
+        height:35px;
+        position :relative ;
+        top:13px;
+        left:10px;
+        font-size :18px;
+     }
+    .modify_scenic .scenic_body
+    {
+           width:1020px;
+           height:500px;
+    }
+     .scenic_body .body_left
+     {
+         width:  600px;
+         height:260px; 
+         position :relative;
+         top:0px;
+         left:100px;
+         }
+    .body_left_ul
+   {
+            
+       width:600px;
+       height:260px;
+       position :relative ;
+       top :20px;
+    }
+       .body_left_ul li
+     {  
+          width:600px;
+         height:50px;
+      }
+.body_left_ul li .left_span
+  {
+    color: black;
+    font-size: 16px;
+    height: 40px;
+    left: 140px;
+    position: relative;
+    top: 15px;
+    width: 220px;
+  }
+  .body_left_ul li  .right_text
+ {
+    height: 30px;
+    left: 155px;
+    position: relative;
+    top: 10px;
+    width: 280px;
+    padding:6px\9;
+    height:20px\9;
+ }
+ .tourist
+ {
+    color: black;
+    font-size: 16px;
+    height: 30px;
+    left: 140px;
+    position: relative;
+    bottom :20px;
+    width: 220px;
+     }
+ .scenic
+ {
+    font-size: 16px;
+    font-style: normal;
+    height: 40px;
+    left: 135px;
+    position: relative;
+    bottom:30px;
+    width: 220px;
+     }
+  .tourist_know
+  {
+    height: 50px;
+    left: 155px;
+    position: relative;
+    top: 10px;
+    width: 280px;
+    resize: none;
+      
+      }
+  .scenic_introduce
+  {
+    height: 80px;
+    left: 155px;
+    position: relative;
+    top: 30px;
+    width: 280px;
+    resize: none;
+      }
+  .submit_bt
+  {
+    height: 40px;
+    left: 280px;
+    position: relative;
+    top: 80px;
+    width: 108px;
+    background :url(../image/confirm.png);
+    border:none;
+    cursor:pointer;
+ }
+ .submit_bt:hover
+ {
+     background :url(../image/confirm1.png);
+     }
+ .succPrompt
+ {
+     font-size:20px;
+     color:Blue;
+     position: relative;
+     left:320px;
+     top:80px;
+     display:none;
+     }
+  .scenic_body .body_right
+{
+    height: 300px;
+    left: 700px;
+    position: absolute;
+    top: 120px;
+    width: 200px;
+ }
+ .body_right .upload_img
+ {
+     width:170px;
+     height:180px;
+     }
+ .body_right .upload_a
+ {
+    color: gray;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bold;
+    height: 40px;
+    left: 40px;
+    position: absolute;
+    top: 190px;
+    width: 150px;
+    
+    }
+#uploadheadimgUploader,#uploadscenicimgUploader
+{
+    margin-top:10px;
+    }
+.upload
+{
+    font-size:18px;
+    position:relative;
+    top:-5px;
+    color:#AB9242;
+    }
+ .upload:hover
+ {
+     color:blue;
+     }
+#headimg,#scenicimg
+{
+    width:150px;height:180px;
+    }

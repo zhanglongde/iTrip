@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="register-body" >
+    <div class ="top-logoimg">
+     <img src="#"alt ="网站logo图片" />
+   </div>
+   <div class="register_pro_img">
+@*       <img  class ="img" src="../../Content/register/image/register_progressbar.png" />
+*@  12 
+</div>
+   <div class ="register_info">
+   <table>
+    <tr><td>用户名：</td><td><input type="text"  id="username"/></td></tr>
+    <tr><td>密码：</td><td><input type="text" id="password"/></td></tr>
+    <tr><td>邮箱：</td><td><input type="text" id="email"/></td></tr>
+    <tr><td>手机：</td><td><input type="text" id="mobilephone"/></td></tr>
+    <tr><td></td><td><input type="button" id="regist" value="注册" onclick="registUser()" /></td></tr>
+</table>
+   
+   </div>
+   
+</div>

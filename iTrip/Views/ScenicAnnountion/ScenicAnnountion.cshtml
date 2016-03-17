@@ -1,0 +1,95 @@
+﻿@{
+    ViewBag.Title = "同游网-景区公告";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="../../Content/scenicannountion/CSS/scenicannountion.css" rel="stylesheet"
+    type="text/css" />
+<link href="../../Content/jPaginate/CSS/jpaginate.css" rel="stylesheet" type="text/css" />
+<div class="main_body">
+    <div class="left_body">
+   @* /* ------------------------------5.11--------------------------------*/*@
+        <div class="h">
+            <div class="headimg">
+                <div class="i">
+                    <img id="h" src="../../Content/travertalk/images/1.png" />
+                </div>
+                <div class="w">
+                    <span>管理员:</span>
+                </div>
+                <div class="un">
+                    <span id="userName">小吴</span>
+                </div>                
+            </div>
+            <div class="word">
+                <span class="w1" id="scenicName">软件学院</span>
+                <div class="solid1">
+                </div>
+            </div>
+ @* /* ------------------------------5.11--------------------------------*/*@
+            <div class="qiandao">
+                <div class="left">
+                    <div class="left1">
+                        <div class="leftTopLeft">
+                            <span id="month" class="month">5/</span>
+                        </div>
+                        <div class="leftTopRight">
+                            <span id="day" class="day">9</span>
+                        </div>
+                    </div>
+                    <div class="left2">
+                        <span id="week" class="week">周3</span>
+                    </div>
+                </div>
+                <div class="center" onclick="change()">
+                    <span id="siginIn" class="siginIn">签到</span>
+                </div>
+                <div class="right">
+                    <div class="right1">
+                        <span>DAY</span></div>
+                    <div class="right2">
+                        <span id="dayCount" class="dayCount">0</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="notice">
+            <div class="week_notice">
+                <span>三个月内公告</span>
+            </div>
+            <div id="3Month_annoution_title_Div">
+                <ul class="ul_notice">
+                    <li class="3MonthTitleLi"><a class="Title"></a></li>
+                </ul>
+                <a class="get_more">::点击查看更多::</a>
+            </div>
+        </div>
+    </div>
+    <div class="right_body">
+        <div class="publish_notice">
+            <div>
+                <span class="title_span">公告标题：</span><input type="text" class="publish_title" id="annountionTitle" />
+                <span class="wordAmountDiv"> 您还可以输入 <span class="wordAmountP" id="wordAmountID">100</span> 字</span>
+            </div>
+            <div>
+                <span class="content_span">公告内容：</span><textarea class="publish_content" id="annountionContent"></textarea>
+                <div class="send_succpic" id="succPic">
+                </div>
+                <div class="send_revisesuccpic" id="revisesuccPic">
+                </div>
+                <a class="revise_bt" id="reviseAnnountion" style="display: none"></a>
+                <a class="publish_bt" id="addAnnountion"></a>
+            </div>
+        </div>
+        <div class=" notice_contents">
+            <div class="notice_title">
+                公告列表
+            </div>
+            <div class="notice_content" id="scenicAnnounttionsDiv">
+            </div>
+            <div class="demo clear" id="demo">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../Content/jquery-ui-moreInfo/javascript/jquery.more.js" type="text/javascript"></script>
+<script src="../../Content/jPaginate/javascript/jquery.paginate.js" type="text/javascript"></script>
+<script src="../../Content/scenicannountion/javascript/scenicannountion.js" type="text/javascript"></script>

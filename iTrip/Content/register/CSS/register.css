@@ -1,0 +1,178 @@
+﻿@import '../../reset.css';
+body
+{
+    background:#EBF0F4;
+    }
+.register_content
+ {
+    width:850px;
+    margin:30px auto;
+    padding-bottom:100px;
+
+ }
+ .wc-register
+ {
+     width:640px;
+     margin:0px auto;
+     position:relative ;
+     top:30px;
+     font-size:30px;
+     color:#9E9392;
+     }
+.register_pro_img
+{
+     width:627.5px;
+     height:25px;
+     position:relative ;
+     top:50px;
+     margin :0px auto;
+     background:url(../image/register_progressbar.png) no-repeat scroll -12px -15px transparent;
+    }
+.register_content .register_info
+    {
+        width:610px;
+        height:auto;
+        background:#FFE8FA;
+        border:1px solid #F19C57;
+        border-top:none;
+        margin :0px auto;
+        padding-top:20px;
+        padding-bottom:20px;
+        position:relative ;
+        top:75px;
+        font-family:courier;
+        }
+ .user_info
+{
+    font-size:20px;
+    padding:10px;
+    height:23px;
+    background:#F19C57;
+    position:relative;
+    top:-20px;
+    color:Blue;
+    font-weight:100;
+    }
+
+ tr
+ {
+      width:600px;
+      height:55px;
+     }
+
+tr .align_left
+  {
+    width:145px;
+    height:35px;
+    text-align:right;
+    font-size:16px;
+ }
+.align_right
+{
+     width:230px;
+     height:35px;
+    }
+    
+.align_right input
+{
+    width:215px;
+    height:32px;
+    font-size:14px;
+    padding:0 6px;
+    padding-top:6px\9;
+    height:27px\9;
+    }
+:root .align_right input
+{
+    padding-top:2px\9;
+    height:29px\9;
+    }
+.input-bg-cg
+{
+    background:url("../image/register_img.png") no-repeat scroll -21px -123px transparent;
+    }
+.align_left .reg_bt
+    {
+        margin-left:110px;
+        margin-top:20px;
+        display:block;
+     width:117px;
+     height:40px;
+     cursor:pointer;
+     background:url(../image/register.png) ;
+     }
+.align_left .reg_bt:hover
+{
+    background:url(../image/register2.png) ;
+    }
+/*邮箱验证*/
+.email-active
+{
+    width:580px;
+    height:240px;
+    display:none;
+    background:white;
+    font-size:16px;
+    margin :0px auto;
+    padding:30px;
+    position:relative ;
+    top:85px;
+    color:#9E9392;
+    }
+   
+.email-active .email-adress
+{
+    color:Blue;
+    }
+.email-active .go-to-email
+{
+    margin-left:150px;
+    position:relative;
+    top:50px;
+    display:block;
+    width:164px;height:52px;
+    background:url(../image/toEmail.png);
+    }
+    
+/*注册成功*/
+.reg-success
+{
+    width:580px;
+    height:240px;
+    display:none;
+    background:white;
+    font-size:24px;
+    margin :0px auto;
+    padding:30px;
+    position:relative ;
+    top:85px;
+    color:#9E9392;
+    }
+    
+/*添加景区信息*/
+.sci_head
+{
+    font-size:18px;
+    padding:10px;
+    height:23px;
+    background:#F19C57;
+    color:Blue;
+    margin-top:20px;
+    margin-bottom:20px;
+    }
+.sci_head h2
+{
+    font-size:20px;
+    }
+.sci_info
+{
+    margin-right:233px;
+    }
+    
+.align_right textarea
+{
+    width:230px;
+    padding-left:4px;
+    resize:none;
+    }
+    

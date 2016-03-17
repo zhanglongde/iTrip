@@ -1,0 +1,110 @@
+﻿@{
+    ViewBag.Title = "同游网-景区流量";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="../../Content/trafficstatistics/CSS/trafficstatistics.css" rel="stylesheet"
+    type="text/css" />
+<link href="../../Content/trafficstatistics/CSS/highslide.css" rel="stylesheet" type="text/css" />
+<div class="main_body">
+    <div class="left_body">
+   @* /* ------------------------------5.11--------------------------------*/*@
+        <div class="h">
+            <div class="headimg">
+                <div class="i">
+                    <img id="h" src="../../Content/travertalk/images/1.png" />
+                </div>
+                <div class="w">
+                    <span>管理员:</span>
+                </div>
+                <div class="un">
+                    <span id="userName">小吴</span>
+                </div>                
+            </div>
+            <div class="word">
+                <span class="w1" id="scenicName">软件学院</span>
+                <div class="solid1">
+                </div>
+            </div>
+   @*         /* ------------------------------5.11--------------------------------*/*@
+            <div  class="qiandao">
+                <div class="left">
+                    <div class="left1">
+                        <div class="leftTopLeft">
+                            <span id="month" class="month">5/</span>
+                        </div>
+                        <div class="leftTopRight">
+                            <span id="day" class="day">9</span>
+                        </div>
+                    </div>
+                    <div class="left2">
+                        <span id="week" class="week">周3</span>
+                    </div>
+                </div>
+                <div class="center" onclick="change()">
+                    <span id="siginIn" class="siginIn" >签到</span>
+                </div>
+                <div class="right">
+                    <div class="right1">
+                        <span>DAY</span></div>
+                    <div class="right2">
+                        <span id="dayCount" class="dayCount">0</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="scenic_list">
+            <div class="list" id="scenicSpot_list">
+                <div class="list_head">
+                    <span>景点列表</span></div>
+                <div id="scenicSpotName_list">
+                    <ul class="ul_list">
+                        <li><a class="ScenicSpotName"></a><span class="ScenicSpotID"></span></li>
+                    </ul>
+                    <a class="get_more">::点击查看更多::</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right_body">
+        <div class="flow">
+            <div class="flow_title_bar">
+                <span>实时流量查看</span>
+            </div>
+            <div class="flow_content">
+                <div id="Real-time flow">
+                </div>
+            </div>
+        </div>
+        <div class="historyflow">
+            <div class="historyflow_title_bar">
+                <span>历史流量查看</span>
+                <div class="searchHistoryflow">
+                <span class="choiceTime">选择时间:</span>
+                <select id="tYEAR" size="1" ></select> 年
+                <select id="tMON" size="1" ></select> 月
+                <select id="tDAY" size="1" ></select> 日
+                <span class="searchType">按:</span>
+                <select id="Conditon">
+                  <option>年</option>
+                  <option>月</option>
+                  <option>日</option>
+                </select>
+                <a id="search">搜索</a></div>
+            </div>
+            <div class="historyflow_content">
+                <div id="History flow">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../Content/jquery-ui-moreInfo/javascript/jquery.more.js" type="text/javascript"></script>
+@*  highchar插件使用js引用*@
+<script src="../../Scripts/highcharts.js" type="text/javascript"></script>
+    @*highslide插件的使用js引用*@
+<script src="../../Scripts/highslide-full.min.js" type="text/javascript"></script>
+<script src="../../Scripts/highslide-config.js" type="text/javascript"></script>
+@*使用下载下来的exporting.js不能显示出效果*@
+<script type="text/javascript" src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="../../Content/trafficstatistics/javascript/Real-time%20flow.js" type="text/javascript"></script>
+<script src="../../Content/trafficstatistics/javascript/History%20flow.js" type="text/javascript"></script>
+<script src="../../Content/trafficstatistics/javascript/trafficstatistics.js" type="text/javascript"></script>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>查看更多内容</title>
+    <script src="../../Scripts/jquery-1.4.4.js" type="text/javascript"></script>
+    <script src="javascript/jquery.more.js" type="text/javascript"></script>
+    <style type="text/css">
+       .more_loader_spinner
+       {
+           background:url(image/loader.gif);
+           width:20px;height:20px;
+           margin-left:60px;
+           }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+
+            $("#scenicSpotName_content").more({
+             'address': '/ScenicAnnountion/loadWeekAnnountions/10',
+             'amount': '1',
+             'template': '.DecContents',
+             'trigger':'.get_more'   //触发加载更多记录的class属性
+              });
+        })
+    </script>
+</head>
+<body>
+  <div class="scenicSpotName" id="scenicSpotName">
+     <div class="scenicSpotName_head"></div>
+     <div class="scenicSpotName_content" id="scenicSpotName_content">
+       <ul class="DecContents">
+         <li class="DecTime"></li>
+       </ul>
+       <a class="get_more">::点击查看更多::</a>
+     </div>
+  </div>
+</body>
+</html>

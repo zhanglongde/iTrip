@@ -1,0 +1,112 @@
+﻿@import '../../reset.css';
+.ct-login
+{
+    width:840px;height:auto;
+    margin:0 auto;
+    }
+ .logo
+ {
+     width:840px;
+     margin-top:40px;
+     margin-bottom:30px;
+     }
+  .login-img
+  {
+      width:400px;
+      float:left;
+      }
+   .input-login
+   {
+       width:320px;
+       float:right;
+       margin-right:30px;
+       border:1px solid #F7C5C5;
+       position:relative;
+       top:-50px;
+       }
+       
+   .input-login .login-rg
+   {
+       margin-bottom:60px;
+       }
+   .input-login .login-rg a
+   {
+       display:block;
+       width:160px;height:40px;
+       background:write;
+       font-size:24px;
+       color:#C0B7B7;
+       font-weight:bolder;
+       padding-top:15px;
+       text-align:center;
+       }   
+   .input-login .login-rg .login
+   {
+       float:left;
+       }
+       
+   .input-login .login-rg .register
+   {
+       float:left;
+       font-size:14px;
+       color:#4F8BA3;
+       margin-top:5px;
+       font-weight:normal;
+       }
+       
+  .input-login  .false-prompt
+  {
+      display:none;
+      margin-left:60px;
+      width:240px;
+      height:25px;
+      background:url(../image/noprompt.png);
+      }
+   .input-login .name,.input-login .pwd
+   {
+       margin-top:10px;
+       font-size:18px;
+       color:#787878;
+       margin-left:60px;
+       }
+       
+   .input-login .name input,.input-login .pwd input
+   {
+       width:180px;height:27px;
+       margin-left:10px;
+       border:1px solid #F7C5C5;
+       color:#787878;
+       }
+       
+   .input-login .pwd span
+   {
+       
+       }
+    .input-login .a-login
+    {
+        display:block;
+        width:74px;height:32px;
+        background:url(../image/login_main.png);
+        background-position:-16px -128px;
+        margin-top:20px; margin-left:110px;
+        }
+        
+     .input-login .a-login:hover
+     {
+         background-position:-16px -175px;
+         }
+         
+  .input-login .auto_login
+  {
+      margin-left:110px;
+      margin-top:20px;
+      font-size:12px;
+      color:#787878;
+      }
+      
+ .input-login .fg-pwd
+ {
+     color:#4F8BA3;font-size:16px;
+     left:200px;
+     position:relative;top:-25px;
+     }

@@ -1,0 +1,499 @@
+﻿body {
+}
+.main_body
+{
+    width:950px;
+    margin :auto;
+    border :1px solid white;
+    position:relative;
+    top:30px;
+    background :url(../images/背景.png)  no-repeat scroll 0px 0px transparent;
+    }
+.left_body
+{   
+   float:left;
+    }
+/*-----------------------------------5,11------------------------------*/
+.left_body .h .headimg .i
+{
+    clear:both;   
+    display:inline-block;
+    position:relative;
+float:left;
+}
+.left_body .h 
+{
+   width:280px;
+    border:2px solid #FEDDBC;
+    height:246px;
+    margin-bottom:5px;
+    padding-top:10px;
+
+}
+.left_body .h .headimg .i
+{
+    margin-left:10px;
+}
+.left_body .h .headimg span
+{
+    font-size:20px;
+    font-family:宋体;  
+    margin-left:10px;
+    
+}
+.left_body .h .headimg .w
+{
+    padding-top:20px;
+padding-bottom:10px;
+    margin-right:12px;
+}
+.left_body .h .headimg .un
+{
+     display: block;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right:10px;
+}
+.left_body .h .word
+{
+    font-size:20px;
+    padding-top:30px;
+    *padding-top:10px;
+    clear:both;
+    text-align:center;
+    padding-bottom:20px;  
+}
+.left_body .ti
+{
+    text-align:center;
+    font-size:18px;
+    padding-bottom:10px;
+}
+/*-----------------------------------5,11------------------------------*/
+.notice_board
+{
+    width:280px;
+    height:auto ;
+}
+     
+.notice
+{
+   width:280px;
+   border:2px solid #FEDDBC;
+   margin-top:5px;
+   padding-bottom:20px;
+ }
+.week_notice
+{
+    width:281px;/*-----------------------------------5,11------------------------------*/
+    height:29px;/*-----------------------------------5,11------------------------------*/
+    background:url(../images/tit-1.png) no-repeat scroll 0px 0px transparent;/*-----------------------------------5,11------------------------------*/
+    padding-top:5px;
+} 
+.week_notice span
+{
+    font-size:16px;
+    font-style:inherit;
+    font-style:normal;
+    font-weight:bold;
+    color:#FFF;
+    margin-left:10px;
+    
+    }
+#3Month_annoution_title_Div
+{
+    padding-bottom:10px;
+    }
+.week_notice a
+{
+    font-size:14px;
+    font-style:normal;
+    font-weight:bold;
+    color:blue;
+    margin-left:10px;
+}
+.notice .get_more
+{
+    margin-left:170px;
+    margin-top:10px;
+    margin-bottom:10px;
+    }
+ .notice .get_more:hover
+ {
+     color:Blue;
+     }
+.week_notice a:link
+{
+    color:#FFF;
+}
+.week_notice a:visited
+{
+    color:#FEEECF;
+}
+.week_notice a:hover
+{
+    color:#FF7733;
+    text-decoration:underline;
+}
+
+ .right_body
+ {
+     float:right;
+     }
+ .ul_notice
+ {
+     width:260px;
+     height:auto;
+     position:relative;
+     top:10px;
+     left:10px;
+     display: inline;
+     line-height :30px;
+     }
+
+ul_notice li
+{
+    width:260px;
+    height:30px;
+    position:relative ;
+    top:10px;
+    display: inline;
+
+    
+}
+.ul_notice li a
+{
+    font-size:medium ;
+    font-style:normal;
+    font-weight:normal ;
+    color:#00C;
+    font-size:16px;
+ }
+ 
+.ul_notice li a:visited
+{
+    color:#FEEECF;
+}
+.ul_notice li a:hover
+{
+    color:#C00;
+    text-decoration:underline;
+}
+.publish_notice
+{
+    width:650px;
+    height:255px;
+    border:2px solid #FAC090;
+}
+.publish_notice span.title_span
+{
+    font-size:18px ;
+    font-style:normal;
+    color:Black;
+    margin-left:30px;
+    }
+   .publish_notice span.content_span
+{
+    font-size:18px ;
+    font-style:normal;
+    color:Black;
+    position:relative;
+    top:-93px;
+    left:30px;
+    }
+.publish_title
+{
+    height: 35px;
+    margin-top:20px;
+    width: 370px;
+    font-size:18px;
+    }
+.publish_content
+{
+    margin-top:30px;
+    margin-left:27px;
+    height: 110px;
+    width: 500px;
+    resize: none;
+    font-size:18px;
+    }
+.publish_bt
+{
+    display:block;
+    width:85px;
+    height:40px;
+    margin-top:10px;
+    margin-left:540px;
+    border: 0 none;
+    cursor: pointer;
+    background:url(../images/fabu.png);      
+    }
+
+.publish_bt:hover
+{
+    background:url(../images/fabu1.png);  
+    }
+.notice_contents
+{
+   width:650px;
+   height:auto;
+   border:2px solid #FEDDBC;
+   border-top:none;
+   margin-bottom:30px;
+}
+.notice_title
+{
+    background:url(../images/tit.png) no-repeat scroll 0 0px transparent; 
+    width:644px;
+    height:30px;
+    margin-top:5px;
+    font-size:18px;
+    color:White;
+    padding-left:8px;
+    padding-top:8px;
+    font-weight:bold;
+    }
+.notice_title  span
+{
+    font-size:20px;
+    color:#FFF;
+    padding-left:10px;
+    font-weight:bold;
+}
+ .notice_content
+ {
+    width:650px;
+    height:auto;
+    text-align:center; 
+     }
+  .content
+  {
+      border-bottom:1px dotted #CED4E3;
+      padding-bottom:10px;
+      margin-bottom:10px;
+      margin-top:10px;
+      }
+  .content .submitTime
+  {
+     font-size:16px;
+     position:relative;
+     left:-50px;
+      }
+ .content .annountionDate
+ {
+     font-size:14px;
+     position:relative;
+     left:-50px;
+     }
+  .content p
+  {
+      text-indent:1em;
+      }
+  .notice_content span
+  {
+    font-size:20px;
+    font-style:normal;
+    font-weight:normal ;
+    color:Black ;
+    margin-top:10px; 
+      }
+    .notice_content p
+  {
+    font-size:large ;
+    font-style:normal;
+    font-weight:normal ;
+    color:Black ;  
+    text-align:left;
+    line-height:40px;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding-left:10px;
+}  
+  .notice_content a
+  {
+    font-size:16px ;
+    font-style:normal;
+    color:#FF8C27 ;
+  }
+ .notice_content a.annChange
+ {
+     margin-left:200px;
+
+     }
+ .notice_content a:hover{ color:gray; text-decoration: underline;}
+.notice_content .annDelete
+{
+    margin-left:20px;
+    }     
+ .clear
+ {
+     clear:both;
+     }
+    
+.demo
+{
+    margin-left:150px;
+    margin-top:20px;
+    margin-bottom:20px;
+    }
+    
+.scenicZoneId
+{
+    display:none;
+    }
+    
+  /*显示发布成功框*/
+ .send_succpic {
+  background: url("../images/success.gif") no-repeat scroll 0 0 transparent;
+  height: 20px;
+  position: relative;
+  margin-left:260px;
+  top: -65px;
+  width: 123px;
+  display:none;
+}
+/*显示修改成功框*/
+.send_revisesuccpic {
+  background: url("../images/revise_success.gif") no-repeat scroll 0 0 transparent;
+  height: 20px;
+  position: relative;
+  margin-left:260px;
+  top: -85px;
+  width: 123px;
+  display:none;
+}
+/*修改按钮*/
+.revise_bt
+{
+    display:block;
+    width:85px;
+    height:40px;
+    margin-top:10px;
+    margin-left:540px;
+    border: 0 none;
+    cursor: pointer;
+     background:url(../images/xiugai.png);    
+    }
+  .revise_bt:hover
+  {
+       background:url(../images/xiugai1.png); 
+      }
+    /*查看更多载入时，等待图片*/
+ .more_loader_spinner
+  {
+    background:url(../../jquery-ui-moreInfo/image/loader.gif);
+    width:20px;height:20px;
+    margin-left:185px;
+    margin-top:65px;
+ }
+ 
+ .qiandao
+{
+
+    font-size:18px;
+    margin-bottom:10px;
+    margin-left:30px;
+}
+ .qiandao
+{
+background-image:url("../images/qiandao.png");
+width:220px;
+height:44px;
+margin-top:10px;/*---------------------------5.11----------------------------------*/
+}
+  .qiandao .left{
+
+margin-top:3px;
+margin-bottom:5px;
+margin-left:15px;
+width:22%;
+height:40px;
+float:left;
+
+}
+  .qiandao .center{
+margin-top:5px;
+margin-bottom:5px;
+
+width:45%;
+height:40px;
+float:left;
+line-height:35px;
+text-align:center;
+}
+
+  .qiandao .right{
+
+margin-bottom:5px;
+margin-left:5px;
+width:22%;
+height:40px;
+
+float:left;
+}
+  .qiandao .right .right1{
+padding:3px;
+padding-left:30%;
+height:10px;
+}
+  .qiandao .right .right2{
+padding:3px;
+padding-left:40%;
+height:10px;
+}
+  .qiandao .left .left1 .leftTopLeft{
+float:left;
+}
+  .qiandao .left .left1 .leftTopRight{
+float:left;
+}
+  .qiandao .left .left1 .leftTopRight
+{
+    padding-right:10px;
+}
+ .qiandao .left .left2 span
+{
+    margin-left:4px;
+    font-size:14px;
+}
+  .qiandao .left .left2 
+{
+    margin-right:4px;
+}
+  .qiandao .center
+{
+    cursor:pointer;
+    }
+  .qiandao .center span
+{
+    font-weight:bold;
+    font-size:20px;
+}
+  .qiandao .left .left1 span
+{
+    font-size:14px;
+}
+  .qiandao .left .left1
+{
+    padding-left:4px;
+}
+  .qiandao .right .right1 span
+{
+    font-size:14px;
+}
+
+/*统计字数P*/
+ .wordAmountP
+ {
+   display:inline-block;
+   font-family:Constantia,Georgia;
+   font-size:22px;
+   font-weight:700;
+   color:Gray;
+   }
+  /*统计字数DIV*/
+  .wordAmountDiv
+  {
+  	display:inline-block;
+  }

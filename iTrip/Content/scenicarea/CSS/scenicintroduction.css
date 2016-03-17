@@ -1,0 +1,162 @@
+﻿
+.main_content
+{
+     width:950px;
+     height :615px;
+     border :1px solid #BABABA;
+     background-color:White ;
+     margin:auto;
+     position:relative;
+     top:10px;
+    
+}
+.scenic_name
+{
+    width:116px;
+    height :27px;
+    position :relative ;
+    font-size :large;
+    font-style:normal ;
+    font-weight:bold;
+    left:30px;
+    top:15px;
+}
+.scenic_img
+ {
+       width:910px;
+       height :260px;
+       border :1px solid #BABABA;
+       margin :auto;
+       position :relative ;
+       top:20px;
+       
+       
+ }
+.left_img
+{
+    width:290px;
+    height :240px;
+    border :1px solid #BABABA;
+    float :left;
+    position :relative ;
+    top:10px;
+    margin-left:17px;
+    }
+   .mid_img
+{
+    width:290px;
+    height :240px;
+    border :1px solid #BABABA;
+    float :left;
+    position :relative ;
+    top:10px;
+}
+   .right_img
+{
+    width:290px;
+    height :240px;
+    border :1px solid #BABABA;
+    float :left;
+    position :relative ;
+    top:10px;
+   
+    
+}
+.mid_info
+{
+    width:910px;
+    height:180px;
+    border :1px solid #BABABA;
+    margin :auto;
+    position :relative ;
+    top:20px;
+    }
+   .text_info
+   {
+    width:116px;
+    height :27px;
+    position :relative ;
+    font-size :large;
+    font-style:normal ;
+    font-weight:bold;
+    left:10px;
+    top:15px;
+    float:left;
+    }
+   .main_tx
+   {
+       width:450px;
+       height :150px;
+       border :1px solid #BABABA;
+       position :relative ;
+       top:15px;
+       float:left;
+       }
+      .voice_info
+      {
+       width:320px;
+       height :150px;
+       border :1px solid #BABABA;
+       position :relative ;
+       top:15px;
+       float:left;
+       left:10px;
+ }
+span 
+{
+    width:100px;
+    height :27px;
+    font-size:medium;
+    font-style:normal ;
+    font-weight:normal;
+    position :relative ;
+    top:10px;
+    left:20px;
+}
+.voice_bt
+{
+    width:230px;
+    height :40px;
+    position :relative ;
+    top:50px;
+    left:30px;
+    font-size:large;
+    font-style:normal ;
+    font-weight:normal;
+    }
+    .bottom_info
+    {
+    width:910px;
+    height:120px;
+    border :1px solid #BABABA;
+    margin :auto;
+    position :relative ;
+    top:10px;
+    }
+    .bottom_tb
+    {
+    width:900px;
+    height:100px;
+    position :relative ;
+    left :10px;
+    top:10px;
+    float:left ;
+    }
+    tr
+    {
+    width:300px;
+    height:30px;
+   
+        }
+    .left_td
+    {
+    width:100px;
+    height:30px;
+    text-align:right ;
+        
+        }
+     .right_td
+     {
+    width:800px;
+    height:30px;
+}

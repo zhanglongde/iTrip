@@ -1,0 +1,60 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>同游网-登陆</title>
+     <link href="../../Content/login/CSS/login.css" rel="stylesheet" type="text/css" />
+     <link href="../../Content/poshytip/tip-yellow/tip-yellow.css" rel="stylesheet" type="text/css" />
+     <link href="../../Content/poshytip/tip-yellowsimple/tip-yellowsimple.css" rel="stylesheet"
+    type="text/css" />
+    <link rel="Shortcut Icon" href="../../Content/themes/image/i3.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="ct-login">
+  <div class="logo">
+      <img src="../../Content/themes/image/tongyou.png" />
+  </div>
+  <div class="login">
+    <div class="login-img">
+        <img src="../../Content/login/image/login_img.jpg" alt="登陆图片"/>
+    </div>
+    <div class="input-login">
+        <div class="login-rg">
+          <a class="login">
+             会员登陆
+          </a>
+          <a class="register" href="../Register/Register">
+             免费注册
+          </a>
+        </div>
+        <div class="false-prompt">
+        </div>
+        <div class="name">
+          <span>账号</span><input id="UserName" value="用户名/邮箱/手机号" type="text"/>
+        </div>
+        <div class="pwd">
+          <span>密码</span><input id="Pwd" type="password"/>
+        </div>
+        <div class="auto_login">
+          <input id="CkAutoLogin" type="checkbox" /><span>  一周内自动登陆</span>
+        </div>
+        <div>
+        <a class="a-login" id="alogin"/>
+        <a class="fg-pwd" href="../Register/FindPassword">忘记密码？</a>
+        </div>
+    </div>
+  </div>
+</div>
+ <script type="text/javascript">
+     var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+     document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F661e06f6cdce83549f28e3b5a0aedab5' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+    <script src="../../Scripts/jquery-1.4.4.js" type="text/javascript"></script>
+    <script src="../../Content/login/javascript/login.js" type="text/javascript"></script>
+    <script src="../../Content/poshytip/jquery.poshytip.js" type="text/javascript"></script>
+</html>
